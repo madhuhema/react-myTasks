@@ -1,0 +1,42 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+button, input, textarea {
+  width: 100%;
+  margin-top : 5px;
+}
+
+.space-around {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 5px;
+  box-shadow: 2px 2px 4px 1px #857f7f;
+  padding: 2rem;
+}
+
+button {
+  background-color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px 1px #857f7f;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 2px 2px 4px 1px #857f7f;
+}
