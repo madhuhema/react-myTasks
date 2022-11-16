@@ -44,7 +44,7 @@ function App() {
 
         </div>
         <div className='space-around'>
-          {tasks.map((item) =>
+          {tasks.sort((a, b) => a.completed ? 1 : -1).map((item) =>
             <div key={item.id} className='card'>
               <p><b>{item.title}{item.completed && <>✔️</>}</b></p>
               <p style={{ width: '20ch' }}>{item.description}</p>
